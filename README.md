@@ -251,4 +251,4 @@ Adds uuid in the file alldata.json for the MaximumDoseSchedule class. Finally, y
 
 ### Manual retouches
 
-The files obtained from the python scrapers went through a lot of processes of changing, and what you see the file JSON in the folder /data are the results of said processes. Unfortanetly some small changes were made manually or by some very small scripts that were lost in the process.
+The files obtained from the python scrapers went through a lot of processes of changing, and the JSON files you see in the folder /data are the results of said processes. Unfortanetly some small changes were made manually or by some very small scripts that were lost in the process.
