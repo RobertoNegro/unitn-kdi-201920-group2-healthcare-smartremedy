@@ -1,0 +1,338 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="alldata.json"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="DrugWithoutPrescription2"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="drugwithoutprescriptionidimproved"];
+n4[style="filled",color="white",fillcolor="lightgray",label="ActiveIngredient1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="ActiveIngredient2"];
+n6[style="filled",color="white",fillcolor="lightgray",label="Drug1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="howSupplied"];
+n8[style="filled",color="white",fillcolor="lightgray",label="Drugstore1"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="labelDrugstore"];
+n10[style="filled",color="white",fillcolor="lightgray",label="AggregateRating2"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="labelAggregaterating2"];
+n12[style="filled",color="white",fillcolor="lightgray",label="Review2"];
+n13[style="filled",color="white",fillcolor="lightgray",label="ActiveIngredient3"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="quantity"];
+n15[style="filled",color="white",fillcolor="lightgray",label="ActiveIngredient4"];
+n16[style="filled",color="white",fillcolor="lightgray",label="Review1"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="author"];
+n18[style="filled",color="white",fillcolor="lightgray",label="TimeSchedule1"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="labelTimeschedule"];
+n20[style="filled",color="white",fillcolor="lightgray",label="AggregateRating1"];
+n21[style="filled",color="white",fillcolor="lightgray",label="Cost1"];
+n22[shape="plaintext",style="filled",fillcolor="gold",label="costid"];
+n23[style="filled",color="white",fillcolor="lightgray",label="AggregateRating3"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="minRating"];
+n26[style="filled",color="white",fillcolor="lightgray",label="Review3"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="uuid_reviewimproved4"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="quantity"];
+n29[shape="plaintext",style="filled",fillcolor="gold",label="uuid_aggregateratingimproved"];
+n30[shape="plaintext",style="filled",fillcolor="gold",label="minRating"];
+n31[shape="plaintext",style="filled",fillcolor="gold",label="warning"];
+n32[shape="plaintext",style="filled",fillcolor="gold",label="author"];
+n33[style="filled",color="white",fillcolor="lightgray",label="MaximumDoseSchedule1"];
+n34[shape="plaintext",style="filled",fillcolor="gold",label="MaximumDoseScheduleLabel"];
+n35[shape="plaintext",style="filled",fillcolor="gold",label="labelReview4"];
+n36[shape="plaintext",style="filled",fillcolor="gold",label="rating"];
+n37[shape="plaintext",style="filled",fillcolor="gold",label="ratingCount"];
+n38[shape="plaintext",style="filled",fillcolor="gold",label="maxRating"];
+n39[style="filled",color="white",fillcolor="lightgray",label="Website1"];
+n40[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n41[style="filled",color="white",fillcolor="lightgray",label="DrugWithoutPrescription1"];
+n42[shape="plaintext",style="filled",fillcolor="gold",label="contraindication"];
+n43[shape="plaintext",style="filled",fillcolor="gold",label="unit"];
+n44[shape="plaintext",style="filled",fillcolor="gold",label="comment"];
+n45[shape="plaintext",style="filled",fillcolor="gold",label="warning"];
+n46[shape="plaintext",style="filled",fillcolor="gold",label="labelActiveIngredient4"];
+n47[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n48[shape="plaintext",style="filled",fillcolor="gold",label="labelAggregaterating"];
+n49[shape="plaintext",style="filled",fillcolor="gold",label="maximumRatingValue"];
+n50[shape="plaintext",style="filled",fillcolor="gold",label="telephoneNumber"];
+n51[shape="plaintext",style="filled",fillcolor="gold",label="city"];
+n52[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n53[shape="plaintext",style="filled",fillcolor="gold",label="email"];
+n54[shape="plaintext",style="filled",fillcolor="gold",label="ratingCount"];
+n55[shape="plaintext",style="filled",fillcolor="gold",label="uuid"];
+n56[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n57[shape="plaintext",style="filled",fillcolor="gold",label="websiteURL"];
+n58[shape="plaintext",style="filled",fillcolor="gold",label="longitude"];
+n59[shape="plaintext",style="filled",fillcolor="gold",label="drugClass"];
+n60[shape="plaintext",style="filled",fillcolor="gold",label="systemRating"];
+n61[style="filled",color="white",fillcolor="lightgray",label="Drug2"];
+n62[style="filled",color="white",fillcolor="lightgray",label="Drugstore2"];
+n63[shape="plaintext",style="filled",fillcolor="gold",label="dosageForm"];
+n64[shape="plaintext",style="filled",fillcolor="gold",label="dosageForm"];
+n65[style="filled",color="white",fillcolor="lightgray",label="MedicalSignOrSymptom2"];
+n66[shape="plaintext",style="filled",fillcolor="gold",label="labelMedicalsignorSymptom2"];
+n67[shape="plaintext",style="filled",fillcolor="gold",label="lowestRatingValue"];
+n68[shape="plaintext",style="filled",fillcolor="gold",label="latitude"];
+n69[shape="plaintext",style="filled",fillcolor="gold",label="id_aggregartingtest2"];
+n70[shape="plaintext",style="filled",fillcolor="gold",label="administrationRoute"];
+n71[shape="plaintext",style="filled",fillcolor="gold",label="labelActiveIngredient"];
+n72[shape="plaintext",style="filled",fillcolor="gold",label="cured_by_improved2"];
+n73[shape="plaintext",style="filled",fillcolor="gold",label="maximumRatingValue"];
+n74[shape="plaintext",style="filled",fillcolor="gold",label="ratingCount"];
+n75[shape="plaintext",style="filled",fillcolor="gold",label="link"];
+n76[shape="plaintext",style="filled",fillcolor="gold",label="reviewCount"];
+n77[shape="plaintext",style="filled",fillcolor="gold",label="id_drugstore"];
+n78[shape="plaintext",style="filled",fillcolor="gold",label="drugClass"];
+n79[shape="plaintext",style="filled",fillcolor="gold",label="unit"];
+n80[shape="plaintext",style="filled",fillcolor="gold",label="headline"];
+n81[shape="plaintext",style="filled",fillcolor="gold",label="adverseReaction"];
+n82[shape="plaintext",style="filled",fillcolor="gold",label="rating"];
+n83[shape="plaintext",style="filled",fillcolor="gold",label="labelReview"];
+n84[style="filled",color="white",fillcolor="lightgray",label="MaximumDoseSchedule2"];
+n85[shape="plaintext",style="filled",fillcolor="gold",label="maximumDoseScheduleID"];
+n86[shape="plaintext",style="filled",fillcolor="gold",label="hasPrescription"];
+n87[shape="plaintext",style="filled",fillcolor="gold",label="averageRating"];
+n88[shape="plaintext",style="filled",fillcolor="gold",label="descriptionDrug"];
+n89[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n90[shape="plaintext",style="filled",fillcolor="gold",label="author"];
+n91[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n92[shape="plaintext",style="filled",fillcolor="gold",label="website"];
+n93[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n94[shape="plaintext",style="filled",fillcolor="gold",label="labelAggregaterating4"];
+n95[shape="plaintext",style="filled",fillcolor="gold",label="systemRating"];
+n96[shape="plaintext",style="filled",fillcolor="gold",label="maximumDoseScheduleID"];
+n97[shape="plaintext",style="filled",fillcolor="gold",label="activeingredientimprovedid"];
+n98[shape="plaintext",style="filled",fillcolor="gold",label="date"];
+n99[shape="plaintext",style="filled",fillcolor="gold",label="maxRating"];
+n100[shape="plaintext",style="filled",fillcolor="gold",label="found_name"];
+n101[shape="plaintext",style="filled",fillcolor="gold",label="headline"];
+n102[shape="plaintext",style="filled",fillcolor="gold",label="labelCost"];
+n103[shape="plaintext",style="filled",fillcolor="gold",label="howSupplied"];
+n104[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n105[style="filled",color="white",fillcolor="lightgray",label="MedicalSignOrSymptom1"];
+n106[shape="plaintext",style="filled",fillcolor="gold",label="cured_by_improved"];
+n107[shape="plaintext",style="filled",fillcolor="gold",label="maximumDoseSchedule"];
+n108[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n109[shape="plaintext",style="filled",fillcolor="gold",label="labelDrugwithoutprescription"];
+n110[shape="plaintext",style="filled",fillcolor="gold",label="websiteName"];
+n111[shape="plaintext",style="filled",fillcolor="gold",label="uuid_website"];
+n112[shape="plaintext",style="filled",fillcolor="gold",label="labelDrug"];
+n113[shape="plaintext",style="filled",fillcolor="gold",label="comment"];
+n114[shape="plaintext",style="filled",fillcolor="gold",label="address"];
+n115[shape="plaintext",style="filled",fillcolor="gold",label="adverseReaction"];
+n116[shape="plaintext",style="filled",fillcolor="gold",label="labelActiveIngredientincompatiblewith2"];
+n117[shape="plaintext",style="filled",fillcolor="gold",label="nameDrug"];
+n118[shape="plaintext",style="filled",fillcolor="gold",label="currency"];
+n119[shape="plaintext",style="filled",fillcolor="gold",label="uuid_reviewimproved2"];
+n120[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n121[shape="plaintext",style="filled",fillcolor="gold",label="website"];
+n122[shape="plaintext",style="filled",fillcolor="gold",label="MaximumDoseScheduleLabel2"];
+n123[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n124[shape="plaintext",style="filled",fillcolor="gold",label="administrationRoute"];
+n125[shape="plaintext",style="filled",fillcolor="gold",label="id_drugstore2"];
+n126[shape="plaintext",style="filled",fillcolor="gold",label="labelWebsite"];
+n127[shape="plaintext",style="filled",fillcolor="gold",label="reviewCount"];
+n128[shape="plaintext",style="filled",fillcolor="gold",label="isAvailableGenerally"];
+n129[shape="plaintext",style="filled",fillcolor="gold",label="proprietaryName"];
+n130[shape="plaintext",style="filled",fillcolor="gold",label="labelActiveIngredientincompatiblewith"];
+n131[shape="plaintext",style="filled",fillcolor="gold",label="activeingredientfinale1"];
+n132[shape="plaintext",style="filled",fillcolor="gold",label="image_link"];
+n133[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n134[shape="plaintext",style="filled",fillcolor="gold",label="activeingredientID"];
+n135[shape="plaintext",style="filled",fillcolor="gold",label="systemRating"];
+n136[shape="plaintext",style="filled",fillcolor="gold",label="uuid_timeschedule"];
+n137[shape="plaintext",style="filled",fillcolor="gold",label="minRating"];
+n138[shape="plaintext",style="filled",fillcolor="gold",label="activeingredientimprovedforthis"];
+n139[shape="plaintext",style="filled",fillcolor="gold",label="proprietaryName"];
+n140[shape="plaintext",style="filled",fillcolor="gold",label="maxRating"];
+n141[shape="plaintext",style="filled",fillcolor="gold",label="rating"];
+n142[shape="plaintext",style="filled",fillcolor="gold",label="maximumDoseSchedule"];
+n143[shape="plaintext",style="filled",fillcolor="gold",label="lowestRatingValue"];
+n144[shape="plaintext",style="filled",fillcolor="gold",label="averageRating"];
+n145[shape="plaintext",style="filled",fillcolor="gold",label="labelReview2"];
+n146[shape="plaintext",style="filled",fillcolor="gold",label="country"];
+n147[shape="plaintext",style="filled",fillcolor="gold",label="faxNumber"];
+n148[shape="plaintext",style="filled",fillcolor="gold",label="reviewCount"];
+n149[shape="plaintext",style="filled",fillcolor="gold",label="descriptionDrugstore"];
+n150[shape="plaintext",style="filled",fillcolor="gold",label="maximumRatingValue"];
+n151[shape="plaintext",style="filled",fillcolor="gold",label="headline"];
+n152[shape="plaintext",style="filled",fillcolor="gold",label="name"];
+n153[shape="plaintext",style="filled",fillcolor="gold",label="lowestRatingValue"];
+n154[shape="plaintext",style="filled",fillcolor="gold",label="uuid_reviewimproved"];
+n155[shape="plaintext",style="filled",fillcolor="gold",label="value"];
+n156[shape="plaintext",style="filled",fillcolor="gold",label="comment"];
+n157[shape="plaintext",style="filled",fillcolor="gold",label="labelMedicalsignorSymptom"];
+n158[shape="plaintext",style="filled",fillcolor="gold",label="averageRating"];
+n159[shape="plaintext",style="filled",fillcolor="gold",label="isAvailableGenerally"];
+n160[shape="plaintext",style="filled",fillcolor="gold",label="contraindication"];
+n161[shape="plaintext",style="filled",fillcolor="gold",label="descriptionDrug"];
+n162[shape="plaintext",style="filled",fillcolor="gold",label="hasPrescription"];
+n163[shape="plaintext",style="filled",fillcolor="gold",label="website"];
+n164[shape="plaintext",style="filled",fillcolor="gold",label="uuid_aggregateratingimproved4"];
+n165[shape="plaintext",style="filled",fillcolor="gold",label="drugwithoutprescriptionid"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n4 -> n5[color="brown",fontcolor="black",label="isIncompatibleWith"]
+n6 -> n7[color="brown",fontcolor="black",label="howSupplied"]
+n8 -> n9[color="brown",fontcolor="black",label="label"]
+n10 -> n11[color="brown",fontcolor="black",label="label"]
+n10 -> n12[color="brown",fontcolor="black",label="aggregationOf"]
+n13 -> n14[color="brown",fontcolor="black",label="quantity"]
+n13 -> n15[color="brown",fontcolor="black",label="isIncompatibleWith"]
+n16 -> n17[color="brown",fontcolor="black",label="reviewAuthor"]
+n18 -> n19[color="brown",fontcolor="black",label="label"]
+n20 -> n16[color="brown",fontcolor="black",label="aggregationOf"]
+n21 -> n22[color="brown",fontcolor="black",label="classLink"]
+n23 -> n24[color="brown",fontcolor="black",label="itemReviewed"]
+n12 -> n25[color="brown",fontcolor="black",label="minRating"]
+n26 -> n27[color="brown",fontcolor="black",label="classLink"]
+n4 -> n28[color="brown",fontcolor="black",label="quantity"]
+n20 -> n29[color="brown",fontcolor="black",label="classLink"]
+n26 -> n30[color="brown",fontcolor="black",label="minRating"]
+n6 -> n31[color="brown",fontcolor="black",label="warning"]
+n26 -> n32[color="brown",fontcolor="black",label="reviewAuthor"]
+n33 -> n34[color="brown",fontcolor="black",label="label"]
+n26 -> n35[color="brown",fontcolor="black",label="label"]
+n16 -> n36[color="brown",fontcolor="black",label="reviewRating"]
+n20 -> n37[color="brown",fontcolor="black",label="ratingCount"]
+n6 -> n2[color="brown",fontcolor="black",label="hasPrescriptionValue"]
+n12 -> n38[color="brown",fontcolor="black",label="maxRating"]
+n39 -> n40[color="brown",fontcolor="black",label="currenciesAccepted"]
+n41 -> n42[color="brown",fontcolor="black",label="contraindication"]
+n4 -> n43[color="brown",fontcolor="black",label="unit"]
+n12 -> n44[color="brown",fontcolor="black",label="reviewBody"]
+n41 -> n45[color="brown",fontcolor="black",label="warning"]
+n13 -> n46[color="brown",fontcolor="black",label="label"]
+n10 -> n47[color="brown",fontcolor="black",label="itemReviewed"]
+n20 -> n48[color="brown",fontcolor="black",label="label"]
+n23 -> n49[color="brown",fontcolor="black",label="bestRating"]
+n8 -> n50[color="brown",fontcolor="black",label="telephoneNumber"]
+n8 -> n51[color="brown",fontcolor="black",label="city"]
+n18 -> n52[color="brown",fontcolor="black",label="openingHours"]
+n8 -> n53[color="brown",fontcolor="black",label="email"]
+n23 -> n54[color="brown",fontcolor="black",label="ratingCount"]
+n6 -> n55[color="brown",fontcolor="black",label="classLink"]
+n8 -> n56[color="brown",fontcolor="black",label="currenciesAccepted"]
+n8 -> n57[color="brown",fontcolor="black",label="websiteURL"]
+n8 -> n58[color="brown",fontcolor="black",label="longitude"]
+n6 -> n59[color="brown",fontcolor="black",label="drugClass"]
+n12 -> n60[color="brown",fontcolor="black",label="ratingSystem"]
+n61 -> n62[color="brown",fontcolor="black",label="isSoldBy"]
+n6 -> n63[color="brown",fontcolor="black",label="dosageForm"]
+n41 -> n64[color="brown",fontcolor="black",label="dosageForm"]
+n65 -> n66[color="brown",fontcolor="black",label="label"]
+n6 -> n23[color="brown",fontcolor="black",label="hasRating"]
+n23 -> n67[color="brown",fontcolor="black",label="worstRating"]
+n8 -> n68[color="brown",fontcolor="black",label="latitude"]
+n10 -> n69[color="brown",fontcolor="black",label="classLink"]
+n41 -> n70[color="brown",fontcolor="black",label="administrationRoute"]
+n4 -> n71[color="brown",fontcolor="black",label="label"]
+n65 -> n72[color="brown",fontcolor="black",label="classLink"]
+n20 -> n73[color="brown",fontcolor="black",label="bestRating"]
+n10 -> n74[color="brown",fontcolor="black",label="ratingCount"]
+n21 -> n75[color="brown",fontcolor="black",label="costSource"]
+n10 -> n76[color="brown",fontcolor="black",label="reviewCount"]
+n8 -> n77[color="brown",fontcolor="black",label="classLink"]
+n41 -> n78[color="brown",fontcolor="black",label="drugClass"]
+n13 -> n79[color="brown",fontcolor="black",label="unit"]
+n16 -> n80[color="brown",fontcolor="black",label="reviewTitle"]
+n6 -> n81[color="brown",fontcolor="black",label="adverseReaction"]
+n12 -> n82[color="brown",fontcolor="black",label="reviewRating"]
+n16 -> n83[color="brown",fontcolor="black",label="label"]
+n84 -> n85[color="brown",fontcolor="black",label="classLink"]
+n6 -> n86[color="brown",fontcolor="black",label="hasPrescription"]
+n23 -> n87[color="brown",fontcolor="black",label="averageRating"]
+n41 -> n21[color="brown",fontcolor="black",label="hasCost"]
+n41 -> n88[color="brown",fontcolor="black",label="descriptionDrug"]
+n6 -> n13[color="brown",fontcolor="black",label="contains"]
+n23 -> n26[color="brown",fontcolor="black",label="aggregationOf"]
+n39 -> n20[color="brown",fontcolor="black",label="hasRating"]
+n61 -> n89[color="brown",fontcolor="black",label="classLink"]
+n12 -> n90[color="brown",fontcolor="black",label="reviewAuthor"]
+n65 -> n91[color="brown",fontcolor="black",label="signOrSymptom"]
+n20 -> n92[color="brown",fontcolor="black",label="source"]
+n62 -> n61[color="brown",fontcolor="black",label="sells"]
+n8 -> n93[color="brown",fontcolor="black",label="nameDrugstore"]
+n23 -> n94[color="brown",fontcolor="black",label="label"]
+n16 -> n95[color="brown",fontcolor="black",label="ratingSystem"]
+n33 -> n96[color="brown",fontcolor="black",label="classLink"]
+n41 -> n10[color="brown",fontcolor="black",label="hasRating"]
+n5 -> n97[color="brown",fontcolor="black",label="classLink"]
+n18 -> n98[color="brown",fontcolor="black",label="date"]
+n16 -> n99[color="brown",fontcolor="black",label="maxRating"]
+n65 -> n13[color="brown",fontcolor="black",label="isCuredBy"]
+n41 -> n100[color="brown",fontcolor="black",label="nameDrug"]
+n26 -> n101[color="brown",fontcolor="black",label="reviewTitle"]
+n21 -> n102[color="brown",fontcolor="black",label="label"]
+n41 -> n103[color="brown",fontcolor="black",label="howSupplied"]
+n13 -> n104[color="brown",fontcolor="black",label="nameAI"]
+n105 -> n106[color="brown",fontcolor="black",label="classLink"]
+n84 -> n107[color="brown",fontcolor="black",label="packageLeaflete"]
+n105 -> n108[color="brown",fontcolor="black",label="signOrSymptom"]
+n41 -> n109[color="brown",fontcolor="black",label="label"]
+n39 -> n110[color="brown",fontcolor="black",label="nameWebsite"]
+n39 -> n111[color="brown",fontcolor="black",label="classLink"]
+n6 -> n112[color="brown",fontcolor="black",label="label"]
+n26 -> n113[color="brown",fontcolor="black",label="reviewBody"]
+n8 -> n114[color="brown",fontcolor="black",label="address"]
+n41 -> n115[color="brown",fontcolor="black",label="adverseReaction"]
+n15 -> n116[color="brown",fontcolor="black",label="label"]
+n13 -> n6[color="brown",fontcolor="black",label="isContained"]
+n6 -> n84[color="brown",fontcolor="black",label="hasDose"]
+n6 -> n117[color="brown",fontcolor="black",label="nameDrug"]
+n13 -> n65[color="brown",fontcolor="black",label="cures"]
+n21 -> n118[color="brown",fontcolor="black",label="currency"]
+n12 -> n119[color="brown",fontcolor="black",label="classLink"]
+n8 -> n120[color="brown",fontcolor="black",label="paymentAccepted"]
+n10 -> n121[color="brown",fontcolor="black",label="source"]
+n84 -> n122[color="brown",fontcolor="black",label="label"]
+n4 -> n123[color="brown",fontcolor="black",label="nameAI"]
+n6 -> n124[color="brown",fontcolor="black",label="administrationRoute"]
+n62 -> n125[color="brown",fontcolor="black",label="classLink"]
+n39 -> n126[color="brown",fontcolor="black",label="label"]
+n20 -> n127[color="brown",fontcolor="black",label="reviewCount"]
+n8 -> n18[color="brown",fontcolor="black",label="hasSchedule"]
+n41 -> n128[color="brown",fontcolor="black",label="isAvailableGenerically"]
+n6 -> n129[color="brown",fontcolor="black",label="proprietaryName"]
+n5 -> n130[color="brown",fontcolor="black",label="label"]
+n15 -> n131[color="brown",fontcolor="black",label="classLink"]
+n8 -> n132[color="brown",fontcolor="black",label="photo"]
+n41 -> n4[color="brown",fontcolor="black",label="contains"]
+n39 -> n133[color="brown",fontcolor="black",label="paymentAccepted"]
+n4 -> n134[color="brown",fontcolor="black",label="classLink"]
+n26 -> n135[color="brown",fontcolor="black",label="ratingSystem"]
+n18 -> n136[color="brown",fontcolor="black",label="classLink"]
+n16 -> n137[color="brown",fontcolor="black",label="minRating"]
+n13 -> n138[color="brown",fontcolor="black",label="classLink"]
+n41 -> n139[color="brown",fontcolor="black",label="proprietaryName"]
+n26 -> n140[color="brown",fontcolor="black",label="maxRating"]
+n26 -> n141[color="brown",fontcolor="black",label="reviewRating"]
+n33 -> n142[color="brown",fontcolor="black",label="packageLeaflete"]
+n41 -> n39[color="brown",fontcolor="black",label="isSoldBy"]
+n20 -> n143[color="brown",fontcolor="black",label="worstRating"]
+n20 -> n144[color="brown",fontcolor="black",label="averageRating"]
+n12 -> n145[color="brown",fontcolor="black",label="label"]
+n8 -> n146[color="brown",fontcolor="black",label="country"]
+n8 -> n147[color="brown",fontcolor="black",label="faxNumber"]
+n23 -> n148[color="brown",fontcolor="black",label="reviewCount"]
+n8 -> n149[color="brown",fontcolor="black",label="descriptionDrugstore"]
+n39 -> n41[color="brown",fontcolor="black",label="sells"]
+n10 -> n150[color="brown",fontcolor="black",label="bestRating"]
+n12 -> n151[color="brown",fontcolor="black",label="reviewTitle"]
+n4 -> n105[color="brown",fontcolor="black",label="cures"]
+n20 -> n152[color="brown",fontcolor="black",label="itemReviewed"]
+n10 -> n153[color="brown",fontcolor="black",label="worstRating"]
+n16 -> n154[color="brown",fontcolor="black",label="classLink"]
+n21 -> n155[color="brown",fontcolor="black",label="value"]
+n16 -> n156[color="brown",fontcolor="black",label="reviewBody"]
+n105 -> n157[color="brown",fontcolor="black",label="label"]
+n10 -> n158[color="brown",fontcolor="black",label="averageRating"]
+n6 -> n159[color="brown",fontcolor="black",label="isAvailableGenerically"]
+n105 -> n4[color="brown",fontcolor="black",label="isCuredBy"]
+n4 -> n41[color="brown",fontcolor="black",label="isContained"]
+n6 -> n160[color="brown",fontcolor="black",label="contraindication"]
+n6 -> n161[color="brown",fontcolor="black",label="descriptionDrug"]
+n41 -> n162[color="brown",fontcolor="black",label="hasPrescription"]
+n23 -> n163[color="brown",fontcolor="black",label="source"]
+n23 -> n164[color="brown",fontcolor="black",label="classLink"]
+n41 -> n33[color="brown",fontcolor="black",label="hasDose"]
+n41 -> n165[color="brown",fontcolor="black",label="classLink"]
+}

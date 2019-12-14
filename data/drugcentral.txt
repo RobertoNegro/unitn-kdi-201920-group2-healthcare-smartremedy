@@ -1,0 +1,2 @@
+Download the drugcentral database dump from http://drugcentral.org/download
+Requires Postgres v10.4

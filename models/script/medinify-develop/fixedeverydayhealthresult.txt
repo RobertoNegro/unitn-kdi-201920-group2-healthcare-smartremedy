@@ -1,0 +1,440 @@
+{
+    "website": "everydayhealth.com",
+    "ratingSystem": "stars",
+    "numberItemsReviewed" : 3,
+    "lowestSystemRating" : 0.0,
+    "maximumSystemRating" : 5.0,
+    "itemsNamesAggregration": [
+        "dayquil severe cold and flu",
+        "advil cold and sinus",
+        "mucinex dm"
+    ],
+    "aggregrateReviews": [
+        {
+            "name": "dayquil severe cold and flu",
+	    "id" : ["0f484aed-ed78-4701-b45a-2fcf8272951d"],
+            "averageRating": 2.1,
+            "minRating": 1.0,
+            "maxRating": 5.0,
+            "reviews": [
+                {
+                    "comment": "Classic severe cold. Took it twice today and felt no relief at all. Will try another I guess",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 3.0,
+                    "date": "11/12/2019 4:06:22 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I had congestion and sneezing. I took dayquil for 3 days. My congestion cleared right up. And it shortened the duration of my cold. However the side effects were horrible. The days i took dayquil, i was very drowsy (i thought dayquil was non drowsy?!). After i stopped taking it, side effects still lingered. Its been 3 days since i last took dayquil and it gave the worst anxiety. Sweating, nervousness, jittery, fast heartbeat. My cold is better but the side effects are horrible!",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "8/13/2019 11:58:59 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "The DayQuil severe made me pretty nauseous, but it only lasted for maybe 10 minutes. I just lay down and drink water, and it goes away pretty quickly. Doesn\u2019t completely remove my symptoms, but it gets rid of them enough that I can live my normal life while waiting for this cold to go away. I probably won\u2019t buy this again when I use up this bottle, but I\u2019ll keep it for the rest of this cold.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 3.0,
+                    "date": "6/29/2019 8:23:45 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "Was experiencing flu like symptoms. Terrible cough, headaches, slight fever, some meisseahe congestion. Within 1/2 hr after taking 2 DayQuils - felt much better but began experiencing strange side effects. They include: nose burning (almost felt like I used an Afrin nose spray - but I didn\u2019t); HEART POUNDING/ my BPM stayed up well beyond - 140 (triggered my Apple Watch for hours; lost sense of taste and lastly - some moderate agitation and sweating....",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 3.0,
+                    "date": "2/21/2019 7:13:04 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "It'll reduce symptoms, but it makes me dizzy and kinda fuzzy. Nothing awful, though.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 4.0,
+                    "date": "2/1/2019 11:07:39 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "Within about two hours of taking this for a simple cold, I begin violently throwing up with severe diarrhea which lasts for about four hours off and on. It took me a couple of times before realizing it was the medicine making me so sick. Never again!",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "1/23/2019 6:28:27 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I drank a theraflu the evening before and took a dose of DayQuil then headed to work. About 3 hours later the chest pains were so bad, I went by ambulance to the hospital. BP good, heart rate good, EKG fine. Won't take it again!!",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "10/31/2018 9:12:44 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I had to run to restroom and sit while I almost blacked out. Ears were ringing and it lasted for awhile. Throat is more sore and chest really hurts still.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "9/26/2018 5:58:28 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I had a great experience with it, felt so bad the day before, didnt take anything until that night. After that, my symptoms have lessened and daily life has become easier until my body should recover from this cold.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 5.0,
+                    "date": "6/20/2018 1:31:27 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "My wife took two night gels of this medicine. Her side effect is so horrible that she can not sleep and keeps vomiting. She also has severe upset stomach and dizzy. I doubt the medicine is overdosed based on its direction to the patients.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "4/3/2018 7:10:03 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "This is my go-to medicine for my colds. I try to avoid catching a cold because once I do it triggers my asthma so bad that I can barely walk a few feet. I can never use the generic brands because they don't work as well. I took the NyQuil last night and was able to sleep laying down through the whole night. When I woke up I felt much better and my asthma is slowly going away. I didn't even need to take a dose of the DayQuil before I came to work.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 5.0,
+                    "date": "9/8/2017 2:25:21 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I took the NyQuil severe cold & flu softgel capsules and the side effects were horrible. I woke up in the middle of the night sweating, very dizzy, nauseous and with an upset stomach, and a little bit of chest pain. I couldn't go back to sleep because I was uncomfortable and was on the edge of vomiting. Would not recommend",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "4/29/2017 10:46:02 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "Worked great for the cold!! Though the hives were 10000 times worse than the cold. I have always taken acetaminophen and have never had a issue before now.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 2.0,
+                    "date": "3/28/2017 8:14:12 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "Made me have bad neausea, gas and diahrea",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "9/22/2016 6:19:20 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "This was horrible. Gave me bad upset stomach. Did not help with symptoms, made them worse",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "5/9/2016 2:56:04 AM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I got a major headache and was nauseous for hours. I do not recommend this.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 3.0,
+                    "date": "3/24/2016 1:35:02 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "I took the Dayquil severe cold and flu and it made me so uncomfortable I had to leave work up set stomach and sweating",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "12/10/2015 9:30:14 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "Didn't help my cold, and the side effects made me violently nauseous. Coming out both ends kind of nauseous.",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "11/7/2015 8:29:19 PM",
+                    "drug": "Dayquil"
+                },
+                {
+                    "comment": "horrible side effects",
+                    "headline": "Rated DayQuil Severe Cold & Flu for Cold Symptoms Report ",
+                    "rating": 1.0,
+                    "date": "5/4/2015 8:46:07 AM",
+                    "drug": "Dayquil"
+                }
+            ]
+        },
+        {
+            "name": "advil cold and sinus",
+	    "id" : ["a9a36ef0-70b0-4934-94c2-399a03269823"],
+            "averageRating": 2.6,
+            "minRating": 0.0,
+            "maxRating": 5.0,
+            "reviews": [
+                {
+                    "comment": "I took the medication as prescribed by my GP. I had all the side effects and felt I was about to die. It was not a very good experience with this medication.",
+                    "headline": "Rated Advil Cold and Sinus for Common cold Report ",
+                    "rating": 1.0,
+                    "date": "7/29/2019 12:32:50 PM",
+                    "drug": "Advil"
+                },
+                {
+                    "comment": "Dizziness, nausea, uneven heartbeat and insomnia",
+                    "headline": "Rated Advil Cold and Sinus for Sinus Symptoms Report ",
+                    "rating": 2.0,
+                    "date": "1/17/2017 5:28:47 PM",
+                    "drug": "Advil"
+                },
+                {
+                    "comment": "",
+                    "headline": "Rated Advil Cold and Sinus for Common cold Report ",
+                    "rating": 5.0,
+                    "date": "12/23/2015 6:43:50 PM",
+                    "drug": "Advil"
+                },
+                {
+                    "comment": "Whenever I have sinus pressure or a cold starting I generally take 1-2 Advil cold & sinus and have never had any negative experience.",
+                    "headline": "Rated Advil Cold and Sinus for Sinus Symptoms Report ",
+                    "rating": 5.0,
+                    "date": "8/15/2012 3:36:52 AM",
+                    "drug": "Advil"
+                },
+                {
+                    "comment": "Not a good experience with this medication.",
+                    "headline": "Rated Advil Cold and Sinus for Common cold Report ",
+                    "rating": 0.0,
+                    "date": "7/3/2012 4:01:08 PM",
+                    "drug": "Advil"
+                }
+            ]
+        },
+        {
+            "name": "mucinex dm",
+	    "id" : ["3572e910-a8e9-4924-9b89-b80377550e4a"],
+            "averageRating": 3.2,
+            "minRating": 0.0,
+            "maxRating": 5.0,
+            "reviews": [
+                {
+                    "comment": "To everyone complaining about Mucinex DM making them drowsy/dizzy- dextromethorphan, the drug that makes the DM part of Mucinex DM, is a drug that causes extreme drowsiness. It is meant to be taken before sleeping. Read up on what drugs do before complaining about their side effects! Anyways, Mucinex DM does its job. I slept great.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "11/17/2019 9:41:27 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "very bad experienced after takng mucinex DM, i felt like im dying at work, i had to go to ER. I got anxiety and panic attack after the experience i went through.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 1.0,
+                    "date": "9/18/2019 7:55:10 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I took Mucinex DM before bed, within an hour I felt extremely dizzy. I woke up every hour feeling extremely disoriented and dizzy as though I was drunk. I couldn\u2019t shake the feeling. It has been almost 24 hours since I took it and I have been miserable all day. I feel a mix of a hungover feeling and intoxicated. I can not operate a vehicle safely at the moment, my brain is very foggy and sluggish feeling, I feel nauseous and feel like I\u2019m going to faint. I am 5\u20196 118lbs for reference. I will never take this again. I have had stronger prescriptions such as Vicodin for surgery and have NEVER in my life felt this way!",
+                    "headline": "Rated Mucinex DM for Common cold Report ",
+                    "rating": 1.0,
+                    "date": "6/26/2019 5:41:41 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I have taken Mucinex DM 12-hour capsules several times for a few days over the last few years when battling a cough. I occasionally noticed dizzy or anxious spells but didn\u2019t equate it to the product. This week I took it on an empty stomach and got in my car about 45 minutes later. Within 3 minutes of leaving my house, I got dizzy, passed out and ran off the road. So scary that I could have been hurt or hurt someone else! Please be careful when taking this product! It worked to treat my symptoms, but it\u2019s not worth my life. I will avoid using 12-hour products in the future and go with smaller dosages.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 2.0,
+                    "date": "6/9/2019 7:52:21 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I took Mucinex DM at 9PM and it definitely helped me stop coughing so I could sleep. However when I woke up at 6AM- I felt weak and disoriented. For the next few hours I had terrible withdrawal symptoms- muscle spasm, lightheaded, weakness, cold sweats. Feeling panicky. The weird thing is that these side effects are not listed on the website. I think the medicine is effective but I wouldn\u2019t take it again.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 3.0,
+                    "date": "5/9/2019 12:16:43 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I experienced dizziness, fainting, headache, and nausea while taking this medication, which far outweighed any benefit it gave me with my sinus infection.",
+                    "headline": "Rated Mucinex DM for Common cold Report ",
+                    "rating": 1.0,
+                    "date": "3/25/2019 2:05:47 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "This medicine works great for me. On hand at all times! Highly recommend.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "3/15/2019 7:30:22 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I had a terrible, hacking cough. I don't believe in cough medicines. Never seen one that did what it claimed...until now. I had a seriously persistent cough, so I took 2 mucinex dm. Now? Cough completely gone!!! I was on shock! It definitely works!!!! No side effects...feel wonderful!! My nose is running like a faucet all of a sudden tho, but nothing I can't handle ??????",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "3/1/2019 12:48:58 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Great product! I had junk in my chest and couldn't cough up anything. I was wheezing in and out. I had no symptoms of any nasal congestion. It helped me breathe and the only side effect was feeling a little drugged up and spaced out. I would recommend this product.",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 5.0,
+                    "date": "2/25/2019 12:06:01 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I took this to help with a cough due to flu. I had only taken 1 tablet during the day. After the 4 th day I took one before bed also. The main reason that I could not sleep was a dry mouth. During the day I drank fluids all the time so I did not notice it. I had used it before for bronchitis",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 4.0,
+                    "date": "2/24/2019 2:11:21 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "DO NOT TAKE THIS! I took it at 9:00 am, at 1:15 I was dizzy, racing thoughts, shakes in my hands and an overall feeling of disorienting. I was \"cracked out\". Next time I will take a hot steamy shower to loosen up flem I DO NOT RECOMMEND THIS PRODUCT!",
+                    "headline": "Rated Mucinex DM for Common cold Report ",
+                    "rating": 1.0,
+                    "date": "2/20/2019 6:32:27 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Did absolutely nothing for me - waste of money.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 2.0,
+                    "date": "2/16/2019 9:37:23 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "The worst drug you could buy... I took a little bit of it for my fever and cold. It made it worse and i can feel it lingering inside me after almost two days... DO NOT BUY!!",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 1.0,
+                    "date": "1/12/2019 9:41:28 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I have never had an allergic reaction before to any food or medicine. I felt light headed after I took it and woke up the next morning, 12 hours after taking with with painful, puffy eyes that were difficult to open due to swelling. I also had intense hives for 4 days and after 7days the hives are almost gone. The puffy eyes lasted three days. Mucinex did not provide relief from my bronchitis. From research it seems many people have suffered negative side effects from this drug. I would not recommend taking it. It\u2019s not worth the risk.",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 1.0,
+                    "date": "1/9/2019 6:23:29 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "The good news is it seems to alleviate symptoms. The bad news is if you are female WATCH OUT! Every time I have taken this product it produces a horrid smell in my crotch. I was very embarrassed by this and called the company over four years ago to complain about this. They seemed to have taken this seriously but I see no changes in them even mentioning this as a possible side effect.",
+                    "headline": "Rated Mucinex DM for Common cold Report ",
+                    "rating": 4.0,
+                    "date": "12/22/2018 4:09:06 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I took Maximum strength Mucinex DM--12 hour about 430PM and rested under my covers for an hour before taking a warm bath. I went to climb back into bed and became so dizzy that I fainted on the floor. After 48 hours the tightness in my chest and light-headed dizziness seems to be going away but I worried that I would die from taking this. None of this was a warning on the box.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 1.0,
+                    "date": "11/23/2018 6:05:57 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Trust me, it works. I couldn't sleep at night for 3 weeks until my mom, a nurse of 35 years told me to try it. It worked great! The only thing is that I noticed a little side affect. Maybe I'm sensitive to the chemicals in musinex dm maximum strength 12 hr but I felt high an hour after taking it. Not too uncomfortable, but recognizable to me. Just sort if racing thoughts and a \"detatched\" type of feeling mentally... maybe it was just me. Idk. But it was a life saver, regardless.",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 5.0,
+                    "date": "11/9/2018 12:22:26 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I bought Mucinex DM last night and slept like a baby after dealing with a hacking cough for 2 weeks and very restless nights. Woke up feelinf fabulous! Unfortunately, I took another 12 hour dose this morning and needed a 3 hour nap. I feel so groggy and drugged. Really needed to accomplish some things today but it won't be happening. I will continue to use this drug for future coughs but only at night. I feel a \"do not operate machinery\" warning is appropriate!",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 4.0,
+                    "date": "6/1/2018 1:34:27 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I was dealing with a dry hacking cough when my Dr told me to try Mucinex DM extra strength. I have been using the 12 hour kind for over a year. Recently I decided that I did not need it anymore so I stopped. I started feeling really bad, sick to my stomach, extreme lethargy and diarrhea . I thought that I had the flu. It continued for days when it hit me that I had changed what drugs I was taken. I looked up withdrawal from Mucinex DM. there I found the exact symptoms that I was experiencing. I had no idea that this was possible. I read that it could take weeks to months for withdrawal period. I WOULD STRONGLY ADVISE NOT TO USE THIS DRUG FOR A LONG PERIOD OF TIME. I have not found any help for stopping this drug in such a manner that would lessen or shorten the time of withdrawal symptoms . I don't have time to loose to go cold turkey.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 3.0,
+                    "date": "5/20/2018 8:28:50 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I took this for my cough, it worked but the side effects ewere awful. I had to go to the ER and the doctor twice for an antibiotic , they thought I had a bacterial infection. My symptions were dizziness sleepiness the had the shakes and was disoriented. None of these were listed on the side effects. Be careful if you take this.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 1.0,
+                    "date": "5/7/2018 8:45:42 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Could be due to the fact it wasn't a common cold it's this terrible flu but every time I ingested this medicine I threw up until it was out of my system, I was not on any other medicine took as directed gave me bad heart burn , my husband it worked for but me not much at all",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 3.0,
+                    "date": "3/22/2018 1:15:12 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I came down with an horrible dry cough, and a tight chest discomfort. I researched on line the best medicine for my conditions, Mucinex DM extra strength was the answer, within the hour I had a noticeable improvement, and it lasted the 12hrs as stated. The only issue I had was it did upset my stomach, big time. Maybe I did not drink enough water initially. I will use it only when the cough is severe.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 4.0,
+                    "date": "2/15/2018 12:02:46 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "This product was recommended to me by a chronic bronchitis sufferer. And, the Mucinex DM has been a real Godsend. (The Robitussin cough medicines make me deathly ill and I can't tolerate them. Was worried Mucinex would have the same effect, but all has been good to go.) I'm going to make this a permanent part of my medicine chest.",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 5.0,
+                    "date": "12/29/2017 6:13:21 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Not helping me at all! P.O'dthat I wasted my money!",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 0.0,
+                    "date": "7/15/2017 10:37:17 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I have been suffering for three weeks have taken every cold pill nothing worked and then three days in a row I woke up and couldn't breathe very scary my last resort I bought mucinex and after one night I got up with no problems breathing what a great relief love this medicine",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 5.0,
+                    "date": "4/29/2017 5:33:40 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Have an issue every winter where I get this crud in my lungs and have now been relying on this for 3 years in a row to combat this. What a life saver it is. My sister that is an RN told me what to take after seeing a Dr. 2X and still being ill. She gave me this wondrous tip. I keep it in the cupboard for next time I get a 3 day virus.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "2/13/2017 11:54:08 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I was experiencing symptoms of acute bronchitis, stuffy nose difficulty breathing severe nonproductive cough with chest pains. This medicine was prescribed by my doctor. I took it and within 3 hours. My nose wasn't stuffy, productive cough. It works!! I will always have some in my medicine cabinet.",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 5.0,
+                    "date": "8/27/2016 10:12:53 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I had mucus stuffed up in my chest like crazy I was paranoid about going to sleep because I had woke up twice from not breathing. My best friend gave me one and I was soooo tired I took it and knocked right out, I was so sleepy. When I woke up that morning, I was breathing fine. My nasal passages had opened up, and I when I blew my nose, it wasn't blocked up at all.",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "4/29/2016 6:59:39 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I HAD SINUS CONGESTION & A BAD COUGH AND IT RELIEVED MY SYMPTOMS IN A FEW DAYS I LOVE IT I KEEP IT IN MY MEDICINE CABINET",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "8/3/2009 12:27:15 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "HAD CONGESTION, COUGH FOR 3 WEEKS, NOT SURE ACUTE BRONCHITIS, OR ALLERGY, IT HAS WORKED, VERY WELL, AND I HAVE HAD THEIS PROBLEM FOR 5 YEARS",
+                    "headline": "Rated Mucinex DM for Bronchitis- acute Report ",
+                    "rating": 4.0,
+                    "date": "5/23/2009 3:22:32 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I have been diagnosed with COPD, bronchitis, asthma, allergies, chronic cough.... In this past 6 months I have had an allergic reaction to a bite of food that I was not aware of having every been allergic to. My husband had to do the Heimlich on me at home and twice in restaurants because of an extreme production of mucous that closed off my entire throat (mucous is not just produced by the sinuses). Sometimes I have had an increase in mucous, taken a Mucinex DM and had very quick response - quickly enough for me to remain seated and to complete my meal. Actually, I simply have an overactive immune system for anything that it interprets might be wrong for my body. Subsequently I tend to develop fluid in my lungs - and Mucinex DM has been the most efficient treatment with the least, if any, side affects. I met a woman at a store when I was purchasing some who said that it did nothing for her. I strongly recommend it!",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "7/22/2008 4:59:45 AM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "Mucinex Dm didnt help me at all, its not worth the cost",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 0.0,
+                    "date": "3/12/2008 6:53:45 PM",
+                    "drug": "Mucinex"
+                },
+                {
+                    "comment": "I have a nasty cold with chest congestion and laryngitis. I had been coughing a lot, due to the mucus in my throat/lungs. I had heard good things about Mucinex products, so I decided to take this one today. Within an hour, my cough had become much more productive, and I felt like I could breathe properly again. I'm still coughing here and there, but it's not as painful or uncontrollable. I took this product with food, and didn't experience any upset stomach, as I had heard others do. I did feel a little bit dizzy/spaced out, but it's a small price to pay! I highly recommend this stuff!",
+                    "headline": "Rated Mucinex DM for Cough Report ",
+                    "rating": 5.0,
+                    "date": "11/20/2007 9:28:58 PM",
+                    "drug": "Mucinex"
+                }
+            ]
+        }
+    ]
+}

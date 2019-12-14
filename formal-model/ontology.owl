@@ -1,0 +1,1157 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stefaniamattevi/ontologies/2019/10/untitled-ontology-30#"
+     xml:base="http://www.semanticweb.org/stefaniamattevi/ontologies/2019/10/untitled-ontology-30"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kdi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#aggregationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#aggregationOf">
+        <rdfs:label>aggregationOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#contains">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kdi#isContained"/>
+        <rdfs:label>contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#cures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#cures">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kdi#isCuredBy"/>
+        <rdfs:label>cures</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasCost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#hasCost">
+        <rdfs:label>hasCost</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasDose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#hasDose">
+        <rdfs:label>hasDose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasPrescriptionValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#hasPrescriptionValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:label>hasPrescriptionValue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#hasRating">
+        <rdfs:label>hasRating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasSchedule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#hasSchedule">
+        <rdfs:label>hasSchedule</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#isContained -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#isContained">
+        <rdfs:label>isContained</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#isCuredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#isCuredBy">
+        <rdfs:label>isCuredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#isIncompatibleWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#isIncompatibleWith">
+        <rdfs:label>isIncompatibleWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#isSoldBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#isSoldBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kdi#sells"/>
+        <rdfs:label>isSoldBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#sells -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#sells">
+        <rdfs:label>sells</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#sellsAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kdi#sellsAt">
+        <rdfs:label>sellsAt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ActiveIngredientProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#ActiveIngredientProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#AggregateRatingProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#AggregateRatingProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#CostProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#CostProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#DrugProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#DrugProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#DrugstoreProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#DrugstoreProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#MaximumDoseScheduleProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#MaximumDoseScheduleProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#MedicalSignOrSymptomProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#MedicalSignOrSymptomProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#PlaceProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#PlaceProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ReviewProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#ReviewProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#StoreProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#StoreProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#TimeScheduleProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#TimeScheduleProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#WebSiteProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#WebSiteProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#address">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#administrationRoute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#administrationRoute">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>administrationRoute</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#adverseReaction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#adverseReaction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>adverseReaction</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#averageRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#averageRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>averageRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#bestRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#bestRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>bestRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#city -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#city">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>city</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#contraindication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#contraindication">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>controindication</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#costSource -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#costSource">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#CostProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Cost"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>costSource</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#country">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#currenciesAccepted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#currenciesAccepted">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#StoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>currenciesAccepted</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#currency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#currency">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#CostProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Cost"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>currency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#TimeScheduleProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#TimeSchedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#descriptionDrug -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#descriptionDrug">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>descriptionDrug</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#descriptionDrugstore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#descriptionDrugstore">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugstoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drugstore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>descriptionDrugstore</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#disableAccess -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#disableAccess">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugstoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drugstore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>disableAccess</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#dosageForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#dosageForm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dosageForm</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#drugClass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#drugClass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>drugClass</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#email">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#faxNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#faxNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>faxNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#formatDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#formatDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#TimeScheduleProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#TimeSchedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>formatDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#hasPrescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#hasPrescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>hasPrescription</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#howSupplied -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#howSupplied">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>howSupplied</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#image">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>image</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#isAvailableGenerically -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#isAvailableGenerically">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>isAvailableGenerically</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#itemReviewed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#itemReviewed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:label>itemReviewed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#latitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>latitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#longitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>longitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#maxRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#maxRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>maxRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#minRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#minRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>minRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#nameAI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#nameAI">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredientProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nameAI</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#nameDrug -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#nameDrug">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nameDrug</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#nameDrugstore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#nameDrugstore">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugstoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drugstore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nameDrugstore</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#nameWebsite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#nameWebsite">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#WebSiteProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>nameWebsite</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#numberOfPhotos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#numberOfPhotos">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#WebSiteProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>numberOfPhotos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#openingHours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#openingHours">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#TimeScheduleProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#TimeSchedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>openingHours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#packageLeaflete -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#packageLeaflete">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#MaximumDoseScheduleProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#MaximumDoseSchedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>packageLeaflete</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#parking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#parking">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugstoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drugstore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>parking</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#paymentAccepted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#paymentAccepted">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#StoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Store"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>paymentAccepted</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#photo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#photo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>photo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#proprietaryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#proprietaryName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>proprietaryName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredientProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>quantity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ratingCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#ratingCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>ratingCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ratingSystem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#ratingSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ratingSystem</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ratingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#ratingValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>ratingValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#reviewAuthor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#reviewAuthor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>reviewAuthor</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#reviewBody -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#reviewBody">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>reviewBody</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#reviewCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#reviewCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>reviewCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#reviewRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#reviewRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>reviewRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#reviewTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#reviewTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ReviewProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>reviewTitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#shippingAverageTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#shippingAverageTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#WebSiteProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>shippingAverageTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#signOrSymptom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#signOrSymptom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#MedicalSignOrSymptomProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#MedicalSignOrSymptom"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>signOrSymptom</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#source -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#source">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#telephoneNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#telephoneNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#PlaceProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>telephoneNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#timezone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#timezone">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#TimeScheduleProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#TimeSchedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>timezone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#unit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#unit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredientProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>unit</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#url">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#WebSiteProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#value">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#CostProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Cost"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#warning -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#warning">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>warning</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#websiteURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#websiteURL">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#DrugstoreProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#Drugstore"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>webasiteURL</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#worstRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kdi#worstRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kdi#AggregateRatingProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>worstRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#ActiveIngredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#ActiveIngredient">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#cures"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#MedicalSignOrSymptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#isContained"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#isIncompatibleWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(3){03575860} &lt;noun.artifact&gt;[06] S: (n) ingredient#1 (ingredient%1:06:00::) (a component of a mixture or compound)</rdfs:comment>
+        <rdfs:label>ActiveIngredient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#AggregateRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#AggregateRating">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#aggregationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Review"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(3){00876484} &lt;noun.act&gt;[04] S: (n) evaluation#1 (evaluation%1:04:00::), rating#2 (rating%1:04:00::) (act of ascertaining or fixing the value or worth of)</rdfs:comment>
+        <rdfs:label>AggregateRating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Cost">
+        <rdfs:comment>(75){13296870} &lt;noun.possession&gt;[21] S: (n) cost#1 (cost%1:21:00::) (the total spent for goods or services including money and time and labor)</rdfs:comment>
+        <rdfs:label>Cost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Drug">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasDose"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#MaximumDoseSchedule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasRating"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#isSoldBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Store"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(30){03252323} &lt;noun.artifact&gt;[06] S: (n) drug#1 (drug%1:06:00::) (a substance that is used as a medicine or narcotic)</rdfs:comment>
+        <rdfs:label>Drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#DrugWithoutPrescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#DrugWithoutPrescription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Cost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasPrescriptionValue"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/kdi#False"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(30){03252324} &lt;noun.artifact&gt;[06] S: (n) drugwithoutprescription#1 (drugwithoutprescription%1:06:00::) (a substance that is used as a medicine or narcotic that can be used and sold only under medical certification)</rdfs:comment>
+        <rdfs:label>DrugWithoutPrescription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Drugstore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Drugstore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kdi#Place"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kdi#Store"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasSchedule"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#TimeSchedule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(6){03254045} &lt;noun.artifact&gt;[06] S: (n) drugstore#1 (drugstore%1:06:00::), apothecary&apos;s shop#1 (apothecary&apos;s_shop%1:06:00::), chemist&apos;s#1 (chemist&apos;s%1:06:00::), chemist&apos;s shop#1 (chemist&apos;s_shop%1:06:00::), pharmacy#2 (pharmacy%1:06:00::) (a retail shop where medicine and other articles are sold)</rdfs:comment>
+        <rdfs:label>Drugstore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#MaximumDoseSchedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#MaximumDoseSchedule">
+        <rdfs:comment>(6){13794246} &lt;noun.quantity&gt;[23] S: (n) dose#2 (dose%1:23:00::), dosage#1 (dosage%1:23:00::) (the quantity of an active agent (substance or radiation) taken in or absorbed at any one time)</rdfs:comment>
+        <rdfs:label>MaximumDoseSchedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#MedicalSignOrSymptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#MedicalSignOrSymptom">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#isCuredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#ActiveIngredient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(8){14323139} &lt;noun.state&gt;[26] S: (n) symptom#1 (symptom%1:26:00::) ((medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease)</rdfs:comment>
+        <rdfs:label>MedicalSignOrSymptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Place">
+        <rdfs:comment>(77){08682181} &lt;noun.location&gt;[15] S: (n) topographic point#1 (topographic_point%1:15:00::), place#1 (place%1:15:00::), spot#1 (spot%1:15:01::) (a point located with respect to surface features of some region) &quot;this is a nice place for a picnic&quot;; &quot;a bright spot on a planet&quot;</rdfs:comment>
+        <rdfs:label>Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Review">
+        <rdfs:comment>(2){06422034} &lt;noun.communication&gt;[10] S: (n) review#2 (review%1:10:01::), critique#1 (critique%1:10:00::), critical review#1 (critical_review%1:10:00::), review article#1 (review_article%1:10:00::) (an essay or article that gives a critical evaluation (as of a book or play))</rdfs:comment>
+        <rdfs:label>Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Store">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#sells"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>(25){04209460} &lt;noun.artifact&gt;[06] S: (n) shop#1 (shop%1:06:00::), store#1 (store%1:06:00::) (a mercantile establishment for the retail sale of goods or services) &quot;he bought it at a shop on Cape Cod&quot;</rdfs:comment>
+        <rdfs:label>Store</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#TimeSchedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#TimeSchedule">
+        <rdfs:comment>(11){05919534} &lt;noun.cognition&gt;[09] S: (n) agenda#1 (agenda%1:09:00::), docket#2 (docket%1:09:00::), schedule#1 (schedule%1:09:00::) (a temporally organized plan for matters to be attended to)</rdfs:comment>
+        <rdfs:label>TimeSchedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#Website -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kdi#Website">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kdi#Store"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#hasRating"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#AggregateRating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#sellsAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kdi#Cost"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kdi#sells"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kdi#DrugWithoutPrescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06370600</rdfs:comment>
+        <rdfs:label>Website</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#False -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kdi#False"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kdi#True -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kdi#True"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
